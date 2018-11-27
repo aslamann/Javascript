@@ -1,0 +1,17 @@
+body {
+    font-family: 'Amatic SC';
+    text-align: center;
+}
+div.llamapicture {
+    height: 450px;
+    width: 300px;
+    float: left;
+    background-color: red;
+}
+#pics {
+    width: 900px;
+    height: 1350px;
+    border: solid 1px black;
+    font-size: 0px;
+    margin: auto;
+}
