@@ -2,10 +2,10 @@ pics = document.getElementById("pics");
 createPicsHolders();
 
 function createPicsHolders() {
-    for(var i = 0; 1 < 9; i++) {
+    for(var i = 0; i < 9; i++) {
         pictureHolder = document.createElement("div");
         pictureHolder.className = "llamapicture";
-        pictureHolder.id = "picture-holder" + i;
+        pictureHolder.id = "picture-holder-" + i;
         pics.appendChild(pictureHolder);
     }
 }
