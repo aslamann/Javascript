@@ -2,7 +2,7 @@ body {
     font-family: 'Amatic SC';
     text-align: center;
 }
-div.llamapicture {
+div.picture-holder {
     box-sizing: border-box;
     height: 450px;
     width: 300px;
@@ -18,4 +18,10 @@ div.llamapicture {
     border: solid 1px black;
     font-size: 0px;
     margin: auto;
+}
+h1 {
+    font-size: 100px;
+}
+h3 {
+    font-size: 40px;
 }
