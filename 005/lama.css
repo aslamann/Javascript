@@ -11,6 +11,11 @@ div.picture-holder {
     border:solid 1px black;
 
 }
+div.favoriet {
+    width:300px;
+    height: 150px;
+    background-color: blue;
+}
 
 #pics {
     width: 900px;
