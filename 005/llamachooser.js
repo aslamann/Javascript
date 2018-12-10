@@ -29,8 +29,13 @@ function createLlamaImages() {
 }
 function maakFavoriet(id) {
     console.log("Maak mij Favoriet! Het gaat om lama..." + id );
+    notsofavoriet = document.getElementsByClassName("favoriet");
+
+    for(var i = 0; i < notsofavoriet.length; i++){
+        notsofavoriet[i].style.backgroundImage = "none";
+    }
     favoriet = document.getElementById("favoriet_" + id);
-    favoriet.style.backgroundImage = "url('../pictures005/hartje.png')";
+    favoriet.style.backgroundImage = "url('pictures005/hartje.png')";
 }
 
 
