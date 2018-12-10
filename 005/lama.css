@@ -1,6 +1,8 @@
 body {
     font-family: 'Amatic SC';
     text-align: center;
+background-position: top;
+    background-repeat: no-repeat ;
 }
 div.picture-holder {
     box-sizing: border-box;
